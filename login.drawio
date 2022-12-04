@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T13:45:42.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="MvNAxTq2pqBaLDQqsV9x" type="github"><diagram id="fq9U_jP1zD5HK0ivl1fe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-04T14:31:57.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="wujhlfgYb24Glnw9zmon" type="github">
+  <diagram id="A0qfIeXOlcU4Pk0J_GPy" name="第 1 页">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-2" value="新用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-5" value="输入手机号&lt;br&gt;点击登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-7" value="验证短信&lt;br&gt;点击确定" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-13" value="DB接口&lt;br&gt;输入：手机号，token&lt;br&gt;输出：用户信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="670" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="717.5" y="130" width="25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rvlrYfmOyBYncnp9-KPM-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rvlrYfmOyBYncnp9-KPM-17" target="rvlrYfmOyBYncnp9-KPM-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-35" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvlrYfmOyBYncnp9-KPM-31">
+          <mxGeometry x="-0.2667" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rvlrYfmOyBYncnp9-KPM-17" target="rvlrYfmOyBYncnp9-KPM-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-34" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvlrYfmOyBYncnp9-KPM-33">
+          <mxGeometry x="-0.3" y="4" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-17" value="是否查到" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-30" value="登记用户信息&lt;br&gt;返回用户信息到客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-32" value="刷新Token&lt;br&gt;刷新有效期&lt;br&gt;返回用户信息到客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-36" value="老用户&lt;br&gt;持有Token" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-42" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-43" value="打开App时&lt;br&gt;检测登录态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-45" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-46" value="DB接口&lt;br&gt;输入：Token&lt;br&gt;输出：用户信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-47" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rvlrYfmOyBYncnp9-KPM-48" target="rvlrYfmOyBYncnp9-KPM-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-55" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rvlrYfmOyBYncnp9-KPM-51">
+          <mxGeometry x="-0.22" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-54" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rvlrYfmOyBYncnp9-KPM-48" target="rvlrYfmOyBYncnp9-KPM-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-48" value="信息返回客户端&lt;br&gt;是否有效" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="350" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-50" value="登录态有效&lt;br&gt;自动登录" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvlrYfmOyBYncnp9-KPM-53" value="登录态失效&lt;br&gt;返回登录页" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
